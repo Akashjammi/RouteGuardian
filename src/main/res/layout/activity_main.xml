@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+     tools:context=".Activity.MainActivity"
+
+    android:orientation="vertical"
+    >
+    <com.jammi.akash.schoolbustracker.CustomViews.F1TextViewRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter mobile number"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/margin_40"
+        android:layout_marginLeft="@dimen/margin_20"
+        />
+    <com.jammi.akash.schoolbustracker.CustomViews.F1EditTextRegular
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/user_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/squareborder"
+        android:padding="@dimen/padding_10"
+
+        />
+    <com.jammi.akash.schoolbustracker.CustomViews.F1EditTextRegular
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/user_pass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/squareborder"
+        android:padding="@dimen/padding_10"
+        />
+    <com.jammi.akash.schoolbustracker.CustomViews.F1TextViewRegular
+
+        android:onClick="login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:padding="@dimen/padding_10"
+        android:id="@+id/log_button"
+        android:background="@drawable/buttonbackground"
+        android:backgroundTint="#FBCA09"
+        android:textColor="@color/white2"
+android:textSize="@dimen/text_medium"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_20"
+
+        />
+
+</LinearLayout>
